@@ -10,16 +10,33 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet var webView: UIWebView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        let url = NSURL(string: "http://apple.com")
+        let request = NSURLRequest(URL: url!)
+        webView.loadRequest(request)
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
 
-
+    @IBAction func doRefresh(AnyObject) {
+        webView.reload()
+    }
+    
+    @IBAction func goBack(AnyObject) {
+        webView.goBack()
+    }
+    
+    @IBAction func goForward(AnyObject) {
+        webView.goForward()
+    }
+    
+    @IBAction func stop(AnyObject) {
+        webView.stopLoading()
+    }
 }
 

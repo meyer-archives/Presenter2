@@ -164,6 +164,7 @@
 				TargetAttributes = {
 					FF18F03419EDC2F2009D42F6 = {
 						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = 7ZCMA49A25;
 					};
 					FF18F04C19EDC2F2009D42F6 = {
 						CreatedOnToolsVersion = 6.0;
@@ -411,6 +412,7 @@
 				FF18F05919EDC2F2009D42F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FF18F05A19EDC2F2009D42F6 /* Build configuration list for PBXNativeTarget "PresenterTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +421,7 @@
 				FF18F05C19EDC2F2009D42F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
